@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+ul.contactsList {
+    display: flex;
+}
+input {
+    border: 1px solid darkcyan;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+button {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid darkturquoise;
+}
+.contactForm {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    height: 30px;
+}
+
+img.contactImage {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+}
+
+.contactItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkcyan;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 5px;
+    background-color: lavender;
+    border-radius: 5px;
+}
+ul.contactsList {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+p.contactLabel {
+    padding: 10px;
+    background-color: darkcyan;
+    color: lavenderblush;
+    border-radius: 5px;
+    margin: 2px;
+}
+a.contactEmail {
+    border: none;
+    background: darkcyan;
+    color: lavenderblush;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    text-decoration: none;
+}
+a.contactEmail:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 42px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 5px;
+	transition: all 1s ease;
+}
+a.contactEmail:hover:before {
+	width: 100%;
+
+}
+    
