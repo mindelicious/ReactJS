@@ -1,10 +1,9 @@
-
 body {
     margin: 0;
     padding: 0;
     background-color: antiquewhite;
 }
-ul.contactsList {
+.contactsList {
     display: flex;
 }
 input {
@@ -26,7 +25,7 @@ button {
     height: 30px;
 }
 
-img.contactImage {
+.contactImage {
     width: 55px;
     height: 55px;
     padding: 10px;
@@ -43,18 +42,18 @@ img.contactImage {
     background-color: lavender;
     border-radius: 5px;
 }
-ul.contactsList {
+.contactsList {
     padding-left: 3px;
     padding-right: 3px;
 }
-p.contactLabel {
+.contactLabel {
     padding: 10px;
     background-color: darkcyan;
     color: lavenderblush;
     border-radius: 5px;
     margin: 2px;
 }
-a.contactEmail {
+.contactEmail {
     border: none;
     background: darkcyan;
     color: lavenderblush;
@@ -66,7 +65,7 @@ a.contactEmail {
     transition: all 500ms ease;
     text-decoration: none;
 }
-a.contactEmail:before {
+.contactEmail:before {
 	content:'';
 	position: absolute;
 	top: 0px;
@@ -77,8 +76,7 @@ a.contactEmail:before {
 	border-radius: 5px;
 	transition: all 1s ease;
 }
-a.contactEmail:hover:before {
+.contactEmail:hover:before {
 	width: 100%;
-
 }
     
